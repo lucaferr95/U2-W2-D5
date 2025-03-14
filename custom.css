@@ -11965,4 +11965,57 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+#caroFilms .carousel {
+  margin-bottom: 50px !important;
+}
+
+footer {
+  max-width: 80%;
+  margin-inline: auto;
+}
+@media screen and (min-width: 576px) {
+  footer {
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 992px) {
+  footer {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  footer {
+    max-width: 60%;
+  }
+}
+
+#footerIcons {
+  max-width: 80%;
+  margin-inline: auto;
+}
+@media screen and (min-width: 576px) {
+  #footerIcons {
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #footerIcons {
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #footerIcons {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #footerIcons {
+    max-width: 60%;
+  }
 }/*# sourceMappingURL=custom.css.map */

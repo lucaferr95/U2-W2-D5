@@ -5,4 +5,35 @@ $secondary: #4f183b;
 
 @import "scss/variables";
 @import "scss/mixins";
+
 @import "scss/bootstrap";
+
+#caroFilms {
+  .carousel {
+    margin-bottom: 50px !important;
+  }
+}
+@mixin footerContent {
+  max-width: 80%;
+  margin-inline: auto;
+
+  @media screen and (min-width: 576px) {
+    max-width: 80%;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 80%;
+  }
+  @media screen and (min-width: 992px) {
+    max-width: 70%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 60%;
+  }
+}
+footer {
+  @include footerContent;
+}
+#footerIcons {
+  @include footerContent;
+}
